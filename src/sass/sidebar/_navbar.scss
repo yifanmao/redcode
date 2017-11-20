@@ -1,0 +1,17 @@
+.nav-menu {
+  .childmenu {
+    + div {
+      padding: 0 !important;
+    }
+    .active {
+      .childmenu & {
+        background: rgba($color-primary, .3) !important;
+      }
+    }
+  }
+
+  .active {
+    background: rgba($color-primary, .3) !important;
+  }
+
+}
